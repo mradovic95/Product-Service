@@ -1,0 +1,33 @@
+#!/bin/bash
+set -e
+
+PRODUCTS_SERVICE_URL="http://localhost:8081/api/products"
+TOKEN="Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiJ9.dSuL1X4PR_ujc_6TPhR0YMshzH3Lw2LecstwErx_1WDhMcKKtjAAwAl1lsvzCLAMF99gak7-2fmCnkyNrRR2qQ"
+
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 100, \"title\": \"table\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 120, \"title\": \"box\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 130, \"title\": \"lamp\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1220, \"title\": \"lantern\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 55, \"title\": \"chair\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 133, \"title\": \"ball\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 12313, \"title\": \"stick\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 43, \"title\": \"racket\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 13, \"title\": \"ship\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1002, \"title\": \"something\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1100, \"title\": \"wall\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1050, \"title\": \"door\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 6100, \"title\": \"window\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1300, \"title\": \"tv\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1050, \"title\": \"laptop\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1050, \"title\": \"keyboard\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1010, \"title\": \"mouse\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1010, \"title\": \"white board\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1010, \"title\": \"remote controller\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1010, \"title\": \"dvd\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1010, \"title\": \"headphones\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1100, \"title\": \"socks\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1100, \"title\": \"t-shirt\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1100, \"title\": \"pants\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1100, \"title\": \"sunglasses\"}"
+curl -X POST "${PRODUCTS_SERVICE_URL}" -H "accept: */*" -H "Authorization: ${TOKEN}" -H "Content-Type: application/json" -d "{ \"description\": \"simple table\", \"price\": 1100, \"title\": \"shoes\"}"
+
